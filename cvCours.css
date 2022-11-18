@@ -1,6 +1,10 @@
 /*body*/
 body{
-    background:linear-gradient(grey,rgb(192, 192, 192))
+    background:linear-gradient(grey,rgb(192, 192, 192));
+}
+/*placement et style de ma bare de navigation*/
+#hautdepage ul li{
+    display: inline;
 }
 /*haut de page*/
 #hautdepage ul{
@@ -9,7 +13,7 @@ body{
 }
 #hautdepage ul li{
     padding: 0 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
 #hautdepage ul li a{
     color: crimson;
@@ -18,7 +22,7 @@ body{
 }
 #hautdepage ul li a:hover{
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 23px;
 }
 /*bas de page*/
 #basdepage ul{
@@ -37,15 +41,23 @@ body{
 #contact ul{
     list-style: none;
 }
+#contact ul li{
+    font-size: 20px;
+}
 /*titres*/
 h2,h3{
-    font-size: 15px;
+    font-size: 22px;
     text-transform:capitalize ;
 }
 h1{
-    font-size: 20px;
+    font-size: 25px;
 }
 /*textes*/
 p{
-    font-size: 12px;
+    font-size: 20px;
+}
+/*image*/
+img{
+    height: 150px;
+    width: 150px;
 }
