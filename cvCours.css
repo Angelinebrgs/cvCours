@@ -49,12 +49,19 @@ body{
 }
 #contact ul li{
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*titres*/
-h2,h3{
+h2{
     font-size: 25px;
     text-transform:capitalize ;
     border:2px solid black;
+    width: 50%;
+}
+h3{
+    font-size: 20px;
+    text-transform:capitalize ;
+    text-decoration: underline;
 }
 #acc{
     font-size: 30px;
@@ -65,18 +72,31 @@ h2,h3{
 #np{
     font-size: 30px;
     text-transform:capitalize ;
-    border: 2px solid black;
+    border: 2px solid black ;
+    width: 25%;
 }
 /*textes*/
 p{
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
 }
 /*image*/
 #logo{
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 img{
     height: 150px;
     width: 150px;
+}
+/*style liste expérience*/
+#experience ol li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*placement contenue avec des container*/
+#container{
+    display: flex;
 }
