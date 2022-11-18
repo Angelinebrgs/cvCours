@@ -1,3 +1,51 @@
+/*body*/
 body{
-    background-color: grey;
+    background:linear-gradient(grey,rgb(192, 192, 192))
+}
+/*haut de page*/
+#hautdepage ul{
+    list-style: none;
+    display: flex;
+}
+#hautdepage ul li{
+    padding: 0 10px;
+    font-size: 15px;
+}
+#hautdepage ul li a{
+    color: crimson;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#hautdepage ul li a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+/*bas de page*/
+#basdepage ul{
+    list-style: none;
+}
+#basdepage ul li a{
+    color: crimson;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#basdepage ul li a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+/*contact*/
+#contact ul{
+    list-style: none;
+}
+/*titres*/
+h2,h3{
+    font-size: 15px;
+    text-transform:capitalize ;
+}
+h1{
+    font-size: 20px;
+}
+/*textes*/
+p{
+    font-size: 12px;
 }
