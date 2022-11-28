@@ -7,48 +7,48 @@ body{
 }
 /*haut de page*/
 /*placement et style de ma bare de navigation*/
-#hautdepage ul{
+.hautdepage ul{
     list-style: none;
     display: flex;
     justify-content: center;
 }
-#hautdepage ul li{
+.hautdepage ul li{
     padding: 0 10px;
     font-size: 20px;
 }
-#hautdepage ul li a{
+.hautdepage ul li a{
     color: crimson;
     text-decoration: none;
     text-transform: capitalize;
 }
-#hautdepage ul li a:hover{
+.hautdepage ul li a:hover{
     text-decoration: underline;
     font-size: 23px;
 }
 /*bas de page*/
-#basdepage ul{
+.basdepage ul{
     list-style: none;
     display: flex;
     justify-content: center;
 }
-#basdepage ul li{
+.basdepage ul li{
     padding: 0 10px;
     font-size: 20px;
 }
-#basdepage ul li a{
+.basdepage ul li a{
     color: crimson;
     text-decoration: none;
     text-transform: capitalize;
 }
-#basdepage ul li a:hover{
+.basdepage ul li a:hover{
     text-decoration: underline;
     font-size: 23px;
 }
 /*contact*/
-#contact ul{
+.contact ul{
     list-style: none;
 }
-#contact ul li{
+.contact ul li{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -66,7 +66,7 @@ h3{
     text-transform:capitalize ;
     text-decoration: underline;
 }
-#acc{
+.acc{
     font-size: 30px;
     text-transform:capitalize ;
     display: flex;
@@ -91,7 +91,7 @@ p{
     width: 50%;
 }
 /*image*/
-#logo,#np{
+.logo,.np{
     display: flex;
     justify-content: center;
 }
@@ -100,7 +100,7 @@ img{
     width: 150px;
 }
 /*style liste expérience*/
-#experience ol li{
+.experience ol li{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -111,7 +111,7 @@ img{
 .gauche,.droite{
     display: table-cell;
 }
-#cont{
+.cont{
     font-size: 25px;
     text-transform:capitalize ;
     text-align: center;
@@ -120,4 +120,25 @@ img{
 }
 ul{
     text-align: center;
+}
+/*responsiv*/
+@media (max-width:1024px){
+    body{
+        margin:auto;
+    }
+    .droite{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+    .gauche{
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
 }
